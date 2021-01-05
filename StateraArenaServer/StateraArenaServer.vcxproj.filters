@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Equipment">
+      <UniqueIdentifier>{c0f691ad-0735-4fb8-b914-a1e1057a407d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Equipment">
+      <UniqueIdentifier>{9e437a9e-7835-4f6e-a4b0-8d4fdb452d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Furniture">
+      <UniqueIdentifier>{c88c52a8-ee9f-40c1-a36e-158b7ccc47ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Furniture">
+      <UniqueIdentifier>{ecb79524-112b-42cf-8ffa-8a1c5f53fbaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Character">
+      <UniqueIdentifier>{dab5bfb7-e006-4ba4-91bb-03ffe29d6c5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Character">
+      <UniqueIdentifier>{7d0cafbf-4965-416c-bdfe-08ab839b7e6e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StateraArenaServer.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipment.cpp">
+      <Filter>Исходные файлы\Equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipmentProperties.cpp">
+      <Filter>Исходные файлы\Equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Исходные файлы\Furniture</Filter>
+    </ClCompile>
+    <ClCompile Include="includes.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Исходные файлы\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Исходные файлы\Furniture</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Исходные файлы\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Bot.cpp">
+      <Filter>Исходные файлы\Character</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EquipmentProperties.h">
+      <Filter>Файлы заголовков\Equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipment.h">
+      <Filter>Файлы заголовков\Equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Файлы заголовков\Furniture</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Файлы заголовков\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Файлы заголовков\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Файлы заголовков\Furniture</Filter>
+    </ClInclude>
+    <ClInclude Include="Bot.h">
+      <Filter>Файлы заголовков\Character</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
