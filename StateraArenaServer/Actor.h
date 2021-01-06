@@ -4,5 +4,9 @@ class Actor
 	: public Character
 {
 
+public:
+	Actor(double x, double y);
+	~Actor();
+
 };
 

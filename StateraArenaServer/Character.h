@@ -1,6 +1,9 @@
 #pragma once
 #include "Equipment.h"
+#include "Entity.h"
+
 class Character
+	: public Entity
 {
 
 public:
@@ -22,8 +25,7 @@ protected:
 	int health,
 		speed;
 
-	double x = 0,
-		y = 0;
+	
 
 };
 

@@ -1,6 +1,7 @@
 #include "includes.h"
 
-Character::Character(double x, double y) {
+Character::Character(double x, double y)
+	:Entity(x, y){
 	this->x = x;
 	this->y = y;
 }

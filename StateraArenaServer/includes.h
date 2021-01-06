@@ -14,6 +14,8 @@ using boost::asio::ip::udp;
 
 #include "EquipmentProperties.h"
 #include "Equipment.h"
+
+#include "Entity.h"
 #include "Character.h"
 #include "Actor.h"
 #include "Bot.h"

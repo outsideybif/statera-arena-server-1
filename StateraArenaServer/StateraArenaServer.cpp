@@ -31,22 +31,22 @@ int main(int argc, char* argv[])
 {
     try
     {
-        Character* vlad = new Actor();
+        Character* vlad = new Actor(10, 20);
         vlad->set_name("Vlad obiknoveniiy");
 
-        Character* vladVlad = new Actor();
+        Character* vladVlad = new Actor(10, 20);
         vladVlad->set_name("Vlad Vlad");
 
-        Character* bot1 = new Bot();
+        Character* bot1 = new Bot(10, 20);
         bot1->set_name("Bot 1");
 
-        Character* bot2 = new Bot();
+        Character* bot2 = new Bot(10, 20);
         bot2->set_name("Bot 2");
 
-        Character* bot3 = new Bot();
+        Character* bot3 = new Bot(10, 20);
         bot3->set_name("Bot 3");
 
-        Character* bot4 = new Bot();
+        Character* bot4 = new Bot(10, 20);
         bot4->set_name("Bot 4");
 
         room = new Room();

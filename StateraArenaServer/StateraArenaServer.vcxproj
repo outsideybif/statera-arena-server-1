@@ -145,6 +145,7 @@
     <ClCompile Include="Actor.cpp" />
     <ClCompile Include="Bot.cpp" />
     <ClCompile Include="Character.cpp" />
+    <ClCompile Include="Entity.cpp" />
     <ClCompile Include="Equipment.cpp" />
     <ClCompile Include="EquipmentProperties.cpp" />
     <ClCompile Include="includes.cpp" />
@@ -156,6 +157,7 @@
     <ClInclude Include="Actor.h" />
     <ClInclude Include="Bot.h" />
     <ClInclude Include="Character.h" />
+    <ClInclude Include="Entity.h" />
     <ClInclude Include="Equipment.h" />
     <ClInclude Include="EquipmentProperties.h" />
     <ClInclude Include="includes.h" />
